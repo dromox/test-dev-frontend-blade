@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Saving the World</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    </head>
+<body>
+    <header>
+        <nav>
+            <p id="burger"><i class="fa fa-bars"></i> Association pour sauver le monde</p>
+            <a href=""><i class="fa fa-info-circle"></i></a>
+        </nav>
+    </header>
+    <main id="background">
+        <section>
+        <div id="logo">
+            <i class="fa fa-leaf"></i>
+        </div>
+        <div id="disclaimer">
+            <h4>Compléter ce formulaire de contact</h4>
+            <p>Ce formulaire est utile à notre base contact. Une fois enregistré, vous recevrez notre catalogue produit ainsi que nos newsletters.
+            Grâce à votre engagement au sein de notre association vous participez à rendre ce monde plus juste. Merci !</p>
+            <span><p class="decline">décliner</p><p class="accept">accepter</p></span>
+        </div>
+        </section>
+        <section class="hidden1">
+        <div id="form">
+            <button type="button" class="annuler" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        <form>
+                <span><label>Nom</label><input type="text" placeholder="Nom"></span>
+                <span><label>Prénom</label><input type="text" placeholder="Prénom"></span>
+                <span><label>Profession</label><input type="text"></span>
+                <span><label>Langue</label><input type="text"></span>
+                <span><label>Situation familiale</label>
+                    <select>
+                        <option>En couple</option>
+                        <option>Célibataire</option>
+                    </select></span>
+                <span><label>Adresse email</label><input type="email" required></span>
+                <span><label>Téléphone</label><input type="text"><select><option>Portable</option><option>Domicile</option></select></span>
+            <div>
+                <div>
+                    <button type="button" class="btn btn-primary">VALIDER</button>
+                </div>
+            </div>
+        </form>
+        </div>
+        </section>
+    </main>
+        <div id="alert" class="hidden2">
+            <h4>Message</h4>
+            <p>Êtes-vous sûr de vouloir décliner le formulaire de contact ?</p>
+            <span><p class="accept">annuler</p><p class="annuler">oui</p></span>
+        </div>
+    <footer>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
